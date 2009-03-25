@@ -1,0 +1,1 @@
+Basic port of the Railscasts TextMate theme to Espresso.  Tested on Ruby files, requires Elliott Cable's ruby.sugar (http://github.com/elliottcable/ruby.sugar/tree/master).
