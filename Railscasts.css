@@ -13,17 +13,33 @@
 
 metadata { color: rgba(255, 0, 0, 1.00); }
 metadata.comment { color: rgba(186, 149, 89, 1.00); }
+
 literal.string.heredoc { color: rgba(255, 0, 0, 1.00); }
+string.interpolation { color: rgba(83, 158, 79, 1.00); }
+
 keyword.control { color: rgba(200, 121, 54, 1.00); }
+
 literal.keyword { color: rgba(112, 155, 190, 1.00); }
+
+literal.escape { color: rgba(83, 158, 79, 1.00); }
+
 operator { color: rgba(200, 121, 54, 1.00); }
+
 container.block { color: rgba(255, 0, 0, 1.00); }
 container.function { color: rgba(251, 199, 111, 1.00); }
-/*identifier.variable { color: rgba(255, 0, 0, 1.00); }*/
+/*container.function.parenthesis-delimited { color: rgba(255, 255, 255, 1.00); }*/
+identifier.variable.parameter { color: rgba(255, 255, 255, 1.00); }
+
 literal { color: rgba(112, 155, 190, 1.00); }
 literal.numeric { color: rgba(164, 194, 97, 1.00); }
 literal.string { color: rgba(164, 194, 97, 1.00); }
-identifier { color: rgba(255, 255, 255, 1.00); }
+
+identifier { color: rgba(200, 121, 54, 1.00); }
+identifier.variable { color: rgba(209, 208, 255, 1.00); }
+identifier.variable.instance { color: rgba(209, 208, 255, 1.00); }
+identifier.variable.local { color: rgba(255, 255, 255, 1.00); }
+identifier.variable.constant { color: rgba(255, 255, 255, 1.00); }
+
 keyword { color: rgba(200, 121, 54, 1.00); }
-/*container { background: rgba(255, 0, 0, 0.33); } */
-delimiter { color: rgba(164, 194, 97, 1.00); }
+
+delimiter { color: rgba(255, 255, 255, 1.00); }
