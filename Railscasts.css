@@ -1,6 +1,6 @@
 /*
 	@theme Railscasts
-	@override-placeholders ruby, css
+	@override-placeholders ruby, css, html
   @author Ported by Xac Stegner from Ryan Bates' Railscasts TextMate theme
 */
 
@@ -10,6 +10,15 @@
 	insertion-point-color: #fff;
 	selection-background-color: #50586F;
 }
+
+tag, source, sourcecode { spell-check: disabled; }
+
+/* HTML */
+
+tag, string > punctuation, attribute-name, entity { color: #E5C06B; } 
+string { color: rgba(164, 194, 97, 1.00); } 
+comment, comment *, comment.block, comment.line.double-slash, comment>punctuation, tag.doctype, tag.doctype > *, tag.doctype > string.quoted { color: #BA9559; }
+processing-instruction { color:#aeaeae; }
 
 /* CSS */
 
@@ -44,7 +53,6 @@ operator, keyword.operator { color: rgba(200, 121, 54, 1.00); }
 
 container.block { color: rgba(255, 0, 0, 1.00); }
 container.function { color: rgba(251, 199, 111, 1.00); }
-/*container.function.parenthesis-delimited { color: rgba(255, 255, 255, 1.00); }*/
 identifier.variable.parameter { color: rgba(255, 255, 255, 1.00); }
 
 identifier { color: rgba(200, 121, 54, 1.00); }
